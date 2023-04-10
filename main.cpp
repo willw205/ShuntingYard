@@ -178,8 +178,8 @@
 	 //Helps to display the final result
 	 
 	 cout << "infix for infix notation --> prefix for prefix notation --> postfix for postfix notation" << endl;
-	 char display[5];
-	 cin.get(display, 5);
+	 char display[10];
+	 cin.get(display, 10);
 	 cin.clear();
 	 cin.ignore(10000, '\n');
 	 cout << "Outputting-" << endl;
